@@ -5,39 +5,6 @@ import open3d as o3d
 import numpy as np
 from realsense_depth import *
 
-# ply_point_cloud = o3d.data.PLYPointCloud()
-# pcd = o3d.io.read_point_cloud(ply_point_cloud.path)
-# print(ply_point_cloud)
-# # print(np.asarray(pcd.points))
-# # o3d.visualization.draw_geometries([pcd],
-# #                                   zoom=0.3412,
-# #                                   front=[0.4257, -0.2125, -0.8795],
-# #                                   lookat=[2.6172, 2.0475, 1.532],
-# #                                   up=[-0.0694, -0.9768, 0.2024])
-
-# License: Apache 2.0. See LICENSE file in root directory.
-# Copyright(c) 2015-2017 Intel Corporation. All Rights Reserved.
-
-"""
-OpenCV and Numpy Point cloud Software Renderer
-This sample is mostly for demonstration and educational purposes.
-It really doesn't offer the quality or performance that can be
-achieved with hardware acceleration.
-Usage:
-------
-Mouse: 
-    Drag with left button to rotate around pivot (thick small axes), 
-    with right button to translate and the wheel to zoom.
-Keyboard: 
-    [p]     Pause
-    [r]     Reset View
-    [d]     Cycle through decimation values
-    [z]     Toggle point scaling
-    [c]     Toggle color source
-    [s]     Save PNG (./out.png)
-    [e]     Export points to ply (./out.ply)
-    [q\ESC] Quit
-"""
 
 import math
 import time
