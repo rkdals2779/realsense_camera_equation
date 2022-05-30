@@ -1,11 +1,4 @@
-import copy
-
-import pyrealsense2 as rs
 import open3d as o3d
-import numpy as np
-from realsense_depth import *
-
-
 import math
 import time
 import cv2
